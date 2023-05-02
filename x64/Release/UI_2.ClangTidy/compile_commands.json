@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:\\Users\\yjchang\\source\\repos\\UI_2",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\yjchang\\Downloads\\sfml2\\SFML-2.5.1\\include\" \/I\"C:\\Users\\yjchang\\Downloads\\spline-master\" \/ID:\\testing\\git\\XMasterV30\\XavisFramework\\Src\\XavisImagingFramework\\XavisImagingFramework \/Zi \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MD \/GS \/Gy \/fp:precise \/permissive- \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\yjchang\\source\\repos\\UI_2\\Source.cpp\"",
+    "file": "C:\\Users\\yjchang\\source\\repos\\UI_2\\Source.cpp"
+  }
+]

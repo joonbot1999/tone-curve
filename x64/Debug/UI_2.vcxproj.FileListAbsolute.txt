@@ -1,0 +1,3 @@
+C:\Users\yjchang\source\repos\UI_2\x64\Debug\UI_2.exe.lastcodeanalysissucceeded
+C:\Users\yjchang\source\repos\UI_2\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\yjchang\source\repos\UI_2\x64\Debug\UI_2.exe

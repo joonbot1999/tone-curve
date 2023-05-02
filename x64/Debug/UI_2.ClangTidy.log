@@ -1,0 +1,20 @@
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:24:12: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+sf::Sprite returnSprite() {
+~~~~~~~~~~ ^
+auto                      -> sf::Sprite
+Suppressed 8932 warnings (8932 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:37:11: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+sf::Image returnImage() {
+~~~~~~~~~ ^
+auto                    -> sf::Image
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:124:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main() {
+~~~ ^
+auto       -> int
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:208:13: warning: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+            sf::Vertex line[] =
+            ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:220:17: warning: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+                sf::Vertex line[] =
+                ^

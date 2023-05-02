@@ -1,0 +1,57 @@
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:32:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int scaleDown(int pixel16) {
+~~~ ^
+auto                       -> int
+Suppressed 8738 warnings (8738 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:36:21: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+std::pair<int, int> getImageSize(const std::string strPath) {
+~~~~~~~~~~~~~~~~~~~ ^
+auto                                                        -> std::pair<int, int>
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:41:31: warning: use nullptr [modernize-use-nullptr]
+        unsigned short* buf = NULL;
+                              ^~~~
+                              nullptr
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:53:6: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+bool LoadTiffFile(const std::string &strPath, uint16_t* pImage, int nImageSize)
+~~~~ ^
+auto                                                                            -> bool
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:62:35: warning: use nullptr [modernize-use-nullptr]
+            unsigned short* buf = NULL;
+                                  ^~~~
+                                  nullptr
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:90:26: warning: use nullptr [modernize-use-nullptr]
+    uint16_t* pImage16 = NULL;
+                         ^~~~
+                         nullptr
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:95:10: warning: Value stored to 'bRet' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+    bool bRet = LoadTiffFile(fn, pImage16, len);
+         ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:95:10: note: Value stored to 'bRet' during its initialization is never read
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:95:10: warning: unused variable 'bRet' [clang-diagnostic-unused-variable]
+    bool bRet = LoadTiffFile(fn, pImage16, len);
+         ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:133:12: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+sf::Sprite returnSprite() {
+~~~~~~~~~~ ^
+auto                      -> sf::Sprite
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:148:11: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+sf::Image returnImage() {
+~~~~~~~~~ ^
+auto                    -> sf::Image
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:245:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main() {
+~~~ ^
+auto       -> int
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:258:22: warning: unused variable 'toChange' [clang-diagnostic-unused-variable]
+    const sf::Uint8* toChange;
+                     ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:333:13: warning: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+            sf::Vertex line[] =
+            ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:345:17: warning: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+                sf::Vertex line[] =
+                ^
+C:\Users\yjchang\source\repos\UI_2\Source.cpp:362:13: warning: expression result unused [clang-diagnostic-unused-value]
+            &sth[i];
+            ^
